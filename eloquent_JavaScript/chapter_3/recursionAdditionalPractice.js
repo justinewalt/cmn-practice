@@ -7,6 +7,9 @@ const categories = [
   { id: 'labrador', 'parent': 'dogs' },
   { id: 'persian', 'parent': 'cats' },
   { id: 'siamese', 'parent': 'cats' },
+  { id: 'monkeys', 'parent': 'mammals' },
+  { id: 'spider monkey', 'parent': 'monkeys' },
+  { id: 'titi', 'parent': 'monkeys' },
 ]
 
 let makeTree = (catagories, parent) => {
